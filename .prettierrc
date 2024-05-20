@@ -1,0 +1,15 @@
+{
+  "eslintIntegration": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "semi": true,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["*.json", ".*.json"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}

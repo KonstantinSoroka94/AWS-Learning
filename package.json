@@ -1,0 +1,36 @@
+{
+  "name": "aws-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_lint": "eslint . --ext .ts --fix",
+    "_typeCheck": "tsc",
+    "lint": "npm run _lint && npm run _typeCheck",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.454.0",
+    "aws-sdk": "^2.1502.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^28.5.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "tsc-files": "^1.1.4",
+    "typescript": "^5.3.2"
+  }
+}
