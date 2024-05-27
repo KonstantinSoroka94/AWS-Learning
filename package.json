@@ -13,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-ec2": "^3.583.0",
     "@aws-sdk/client-iam": "^3.478.0",
     "aws-sdk": "^2.1502.0",
+    "axios": "^1.7.2",
     "dotenv": "^16.3.1",
     "ts-node": "^10.9.1"
   },
