@@ -15,14 +15,17 @@
   "dependencies": {
     "@aws-sdk/client-ec2": "^3.583.0",
     "@aws-sdk/client-iam": "^3.478.0",
+    "@aws-sdk/client-rds": "^3.583.0",
     "@aws-sdk/client-s3": "^3.583.0",
     "aws-sdk": "^2.1502.0",
     "axios": "^1.7.2",
     "dotenv": "^16.3.1",
     "fs-extra": "^11.2.0",
     "lodash": "^4.17.21",
+    "mysql2": "^3.9.9",
     "ssh2": "^1.15.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tunnel-ssh": "^5.1.2"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
