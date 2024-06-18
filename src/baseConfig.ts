@@ -11,4 +11,9 @@ export const BaseConfig = {
   dbPassword: process.env.DB_PASSWORD,
   dbName: process.env.DB_NAME,
   dbPort: process.env.DB_PORT,
+  mailtrapUrl: process.env.MAILTRAP_URL,
+  mailtrapToken: process.env.MAILTRAP_TOKEN,
+  mailtrapAccountId: process.env.MAILTRAP_ACCOUNT_ID,
+  mailtrapInboxId: process.env.MAILTRAP_INBOX_ID,
+  mailtrapEmail: process.env.MAILTRAP_EMAIL,
 };
