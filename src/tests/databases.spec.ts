@@ -21,7 +21,7 @@ import axios, { type AxiosResponse } from 'axios';
 import _ from 'lodash';
 import fs, { readFileSync } from 'fs-extra';
 import FormData from 'form-data';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 
 describe('DataBases', () => {
   const { region, dbUsername, dbPassword, dbName, dbPort } = BaseConfig;

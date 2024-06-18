@@ -12,7 +12,7 @@ import {
   type DescribeInstancesCommandInput,
 } from '@aws-sdk/client-ec2';
 import { describe, expect, test } from '@jest/globals';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 
 describe('EC2', () => {
   const { region } = BaseConfig;

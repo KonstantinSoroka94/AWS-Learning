@@ -31,7 +31,7 @@ import _ from 'lodash';
 import fs from 'fs-extra';
 import FormData from 'form-data';
 import { promisify } from 'util';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 
 const { region } = BaseConfig;
 
