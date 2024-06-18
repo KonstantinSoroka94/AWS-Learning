@@ -355,8 +355,8 @@ describe('SNS/SQS', () => {
     });
 
     test('the subscribed user receives notifications about images events (image is uploaded)', async () => {
-      const randomImage: string = _.sample(['beach.jpg', 'coffee.jpg', 'tree.jpeg']);
-      const filePath: string = join(process.cwd(), 'src', 'testData', randomImage);
+      const randomImage: string = _.sample(['fire.jpg', 'lemon.jpg', 'workspace.jpg']);
+      const filePath: string = join(process.cwd(), 'src', 'fixtures', randomImage);
 
       const formData: FormData = new FormData();
       formData.append('upfile', createReadStream(filePath));
@@ -452,7 +452,7 @@ describe('SNS/SQS', () => {
     });
 
     test('the user can download the image using the download link from the notification', async () => {
-      const randomImage: string = _.sample(['beach.jpg', 'coffee.jpg', 'tree.jpeg']);
+      const randomImage: string = _.sample(['fire.jpg', 'lemon.jpg', 'workspace.jpg']);
       const filePath: string = join(process.cwd(), 'src', 'testData', randomImage);
 
       const formData: FormData = new FormData();
@@ -488,8 +488,8 @@ describe('SNS/SQS', () => {
     });
 
     test('the user can unsubscribe from the notifications', async () => {
-      const randomImage: string = _.sample(['beach.jpg', 'coffee.jpg', 'tree.jpeg']);
-      const filePath: string = join(process.cwd(), 'src', 'testData', randomImage);
+      const randomImage: string = _.sample(['fire.jpg', 'lemon.jpg', 'workspace.jpg']);
+      const filePath: string = join(process.cwd(), 'src', 'fixtures', randomImage);
 
       const formData: FormData = new FormData();
       formData.append('upfile', createReadStream(filePath));
@@ -544,8 +544,8 @@ describe('SNS/SQS', () => {
     });
 
     test('the unsubscribed user does not receive further notifications', async () => {
-      const randomImage: string = _.sample(['beach.jpg', 'coffee.jpg', 'tree.jpeg']);
-      const filePath: string = join(process.cwd(), 'src', 'testData', randomImage);
+      const randomImage: string = _.sample(['fire.jpg', 'lemon.jpg', 'workspace.jpg']);
+      const filePath: string = join(process.cwd(), 'src', 'fixtures', randomImage);
 
       const formData: FormData = new FormData();
       formData.append('upfile', createReadStream(filePath));
