@@ -70,7 +70,7 @@ import {
   SendMessageCommandInput,
   SendMessageCommandOutput,
 } from '@aws-sdk/client-sqs';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 import { generateMailtrapEmail } from '../commands/Common';
 import { MailtrapApiClient } from '../commands/MailtrapApiClient';
 

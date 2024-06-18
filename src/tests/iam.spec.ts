@@ -19,7 +19,7 @@ import {
   ListGroupsForUserCommand,
 } from '@aws-sdk/client-iam';
 import { describe, expect, test } from '@jest/globals';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 
 describe('IAM', () => {
   [

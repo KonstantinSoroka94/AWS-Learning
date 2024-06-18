@@ -50,7 +50,7 @@ import { createReadStream } from 'fs-extra';
 import FormData from 'form-data';
 import { Browser, BrowserContext, Page, chromium } from 'playwright';
 import { randomUUID } from 'node:crypto';
-import { BaseConfig } from '../BaseConfig';
+import { BaseConfig } from '../baseConfig';
 import { MailtrapApiClient } from '../commands/MailtrapApiClient';
 import { generateMailtrapEmail } from '../commands/Common';
 
